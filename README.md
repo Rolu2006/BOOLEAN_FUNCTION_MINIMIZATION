@@ -34,27 +34,53 @@ Hardware – PCs, Cyclone II , USB flasher
 **Program:**
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
-
-Developed by:somalaraju rohini RegisterNumber:*/212224240156
-(ii).module exp_2(w,x,y,z,f1);
-input w,x,y,z;
+(i).
+```
+module exp_1(a,b,c,d,f1);
+input a,b,c,d;
 output f1;
-assign f1=((~y&z)|(x&y)|(w&y));
+assign f1=((~b&~d)|(~a&b&d)|(a&b&~c));
 endmodule
+```
+(ii).
+```
+module exp_2(w,x,y,z,f2);
+input w,x,y,z;
+output f2;
+assign f2=((~y&z)|(w&y)|(x&y));
+endmodule
+```
+Developed by:somalaraju rohini RegisterNumber:*/212224240156
 
 **RTL realization**
 
+(i).
+
+![Screenshot 2025-03-16 212130](https://github.com/user-attachments/assets/a5d2cd41-898c-4984-8747-ed4f00fe5224)
+
+(ii).
+
+
+
+
+
+![Screenshot 2025-03-14 143418](https://github.com/user-attachments/assets/4a17f862-82c0-403e-9d75-e986c9dd74f4)
+
+
+
+
 **Output:**
 
-![Screenshot 2025-03-07 140223](https://github.com/user-attachments/assets/b365ba3c-8a00-4a8d-ac30-2e96108109f1)
+
+(i).
+
+![Screenshot 2025-03-16 212621](https://github.com/user-attachments/assets/f32db8cb-b491-4dc4-ac08-7cda873faab7)
 
 
-
-![Screenshot 2025-03-14 144016](https://github.com/user-attachments/assets/a3255f3f-cc55-4ef0-98a1-3ab4d9a58565)
-
+(ii).
 
 
-
+![Screenshot 2025-03-14 144016](https://github.com/user-attachments/assets/7ae20e67-1bbf-4604-91d4-f1fa988667ac)
 
 
 
