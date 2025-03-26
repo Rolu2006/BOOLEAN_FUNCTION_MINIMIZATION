@@ -18,6 +18,18 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Logic Diagram**
 
+
+
+
+![WhatsApp Image 2025-03-26 at 3 09 04 PM](https://github.com/user-attachments/assets/383c04c7-5802-46c0-b682-4542c5d87b0b)
+
+
+
+
+
+
+
+
 **Procedure**
 
 1.	Type the program in Quartus software.
